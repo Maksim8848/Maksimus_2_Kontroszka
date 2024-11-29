@@ -5,7 +5,7 @@
     "vendor_code": "111",
     "description": "",
     "price": 150,
-    "img": "valli.jpg"
+    "img": "https://avatars.mds.yandex.net/i?id=9372c81353e878db836dd4903265df7769938e04-9666026-images-thumbs&n=13"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "vendor_code": "222",
     "description": "Описание 2",
     "price": 2,
-    "img": "cat.jpg"
+    "img": "https://avatars.mds.yandex.net/i?id=38f259133300e1e090ef49bedbcb80acd203ee36-9838181-images-thumbs&n=13"
   },
   {
     "id": "3",
@@ -21,7 +21,7 @@
     "vendor_code": "333",
     "description": "Описание 3",
     "price": 300,
-    "img": "avatar2.jpg"
+    "img": "https://avatars.mds.yandex.net/i?id=d2b1127a1fc80ab41383cf1762713fdcdd09fde1-8534972-images-thumbs&n=13"
   },
   {
     "id": "4",
@@ -29,7 +29,7 @@
     "vendor_code": "444e",
     "description": "Описание 4",
     "price": 1200,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_004.jpg"
+    "img": "https://avatars.mds.yandex.net/i?id=b64216bfa1793e7922feb02e7ffcfae5215efb75-10749046-images-thumbs&n=13"
   }
   ,
   {
@@ -38,7 +38,7 @@
     "vendor_code": "4445e",
     "description": "Описание 6",
     "price": 400,
-    "img": "zooro.jpg"
+    "img": "https://a.allegroimg.com/s1024/0c45fe/85a54ad140babb8571d1220f4dff"
   },
   {
     "id": "6",
@@ -46,7 +46,7 @@
     "vendor_code": "4446e",
     "description": "Описание 6",
     "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_1.png"
+    "img": "https://avatars.mds.yandex.net/i?id=d2ed08ac8aaba55efba07eadc88fb18fa6dbad5b-5284061-images-thumbs&n=13"
   },
   {
     "id": "7",
@@ -54,7 +54,7 @@
     "vendor_code": "4447e",
     "description": "Описание 7",
     "price": 700,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_2.png"
+    "img": "https://www.cdiscount.com/pdt2/3/9/0/1/700x700/auc1699260361390/rw/polska-carte-collier-decoration-ethnique-pologne.jpg"
   },
   {
     "id": "8",
@@ -62,7 +62,7 @@
     "vendor_code": "4448e",
     "description": "Описание 8",
     "price": 800,
-    "img": "avatar.jpg"
+    "img": "https://80.img.avito.st/image/1/1.Ldppa7a4gTNfwkM2P1N77nzKgzXXygM7H8-DMdnCiTnf.Y3ZOrt-dmZeCjEGwnQT6gOfZI0uSpNx14Ibmr61fFFE"
   },
   {
     "id": "9",
@@ -70,7 +70,7 @@
     "vendor_code": "444e",
     "description": "Описание 9",
     "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_4.png"
+    "img": "https://avatars.mds.yandex.net/i?id=6f6d852a1d767ac0e69f89f15dfc7658_l-5284079-images-thumbs&n=13"
   }
   ,
   {
@@ -79,7 +79,7 @@
     "vendor_code": "44410e",
     "description": "Описание 10",
     "price": 900,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_5.png"
+    "img": "https://media4.allnumis.com/736/3-zlote-1954-beaver_736_66171724a6dc40c8L.jpg"
   },
   {
     "id": "11",
@@ -87,6 +87,15 @@
     "vendor_code": "44411e",
     "description": "Описание 1",
     "price": 1100,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_6.png"
+    "img": "https://avatars.mds.yandex.net/i?id=cee7906c42cf0b812cca02806606bf41ddd3e080-4322260-images-thumbs&n=13"
+  }
+  ,
+  {
+    "id": "12",
+    "title": "Товар 12",
+    "vendor_code": "44412e",
+    "description": "Описание 1",
+    "price": 1100,
+    "img": "https://avatars.mds.yandex.net/get-marketpic/5961687/pic1ad76f1431558c6b979855e749d68555/orig"
   }
 ]
