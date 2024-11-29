@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "title": "Шапка",
+    "title": "Czapka",
     "vendor_code": "222",
     "description": "Шапка польского гусара",
     "price": 1600,
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "title": "Кепка с гербом Польши",
+    "title": "Czapka z herbem Polski",
     "vendor_code": "333",
     "description": "",
     "price": 660,
@@ -42,7 +42,7 @@
   },
   {
     "id": "6",
-    "title": "Подвеска",
+    "title": "Wisiorek",
     "vendor_code": "4446e",
     "description": "Polski "złoty" orzeł",
     "price": 1100,
@@ -50,7 +50,7 @@
   },
   {
     "id": "7",
-    "title": "Подвеска",
+    "title": "Wisiorek",
     "vendor_code": "4447e",
     "description": "Подвеска из серебра с изображением Польши",
     "price": 1200,
@@ -58,9 +58,9 @@
   },
   {
     "id": "8",
-    "title": "Avatar",
+    "title": "Strój narodowy",
     "vendor_code": "4448e",
-    "description": "Описание 8",
+    "description": "Национальный польский костюм, 52(L)",
     "price": 800,
     "img": "https://80.img.avito.st/image/1/1.Ldppa7a4gTNfwkM2P1N77nzKgzXXygM7H8-DMdnCiTnf.Y3ZOrt-dmZeCjEGwnQT6gOfZI0uSpNx14Ibmr61fFFE"
   },
