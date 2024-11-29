@@ -30,11 +30,29 @@
                     <li class="nav-item"> <a class="nav-link" href="index.html">Rzeczpospolita Polska</a> </li>
                     <li class="nav-item"> <a class="nav-link active" href="сувенир.html">приобрести сувенир</a></li>
                     <li class="nav-item"> <a class="nav-link" href="отзыв.html">оставить отзыв</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="зёбра.html">сравнительная табл.</a></li>
                 </ul>
             </div>
 
-           
-                <a href="Jula - Za Kazdym Razem.mp3" class="btn btn-success">Kliknij tutaj, aby posłuchać uroczej polskiej muzyki!</a>
-</body>
 
-</html>
+
+
+
+
+
+
+            <div class="card-body">
+                <h5 class='card-title text-center'>Магазин</h5>
+                 <input type="radio" id="price" name="sort"  onchange="sort()"> price  </input>
+                 <input type="radio" id="title" name="sort"  checked onchange="sort()" > title </input>
+                 <input type="text" id="search" name="search"  onchange="search()"> поиск  </input>
+                <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                    <input name="q" type="hidden" value="search">
+                    <ul class="d-flex flex-row justify-content-around flex-wrap bg-light" id="node_for_insert">
+    
+                    <!--начало генерируемого фрагмента кода -->
+                    </ul>
+                    <input class="btn btn-primary" type="Submit" value="В корзину">
+                </form>
+            </div>
+
