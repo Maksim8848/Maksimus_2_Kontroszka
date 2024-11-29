@@ -74,7 +74,7 @@ async function getResponce() {
     for (key in content_filter) {
                 node_for_insert.innerHTML += `
                 <li style="width: 310px" class="d-flex flex-column m-1 p-1 border bg-body">
-                <img style="width: 180px" class="align-self-center" src=${content_filter[key].img}>
+                <img style="width: 180px; height:180px;" class="align-self-center" src=${content_filter[key].img}>
                 <h5 class="card-title">${content_filter[key].title}</h5>
                 <p class="card-text">${content_filter[key].description}. Цена ${content_filter[key].price} р.</p>
                 <input type="hidden" name= "vendor_code" value=${content_filter[key].vendor_code}>
