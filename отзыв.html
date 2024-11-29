@@ -2,6 +2,43 @@
 <html lang="en" dir="ltr">
 
 <head>
+    <style>
+        .star-rating {
+            display: flex;
+            direction: row-reverse;
+            justify-content: flex-start;
+           
+
+        }
+
+        .star-container {
+            display: flex;
+            gap: 3px;
+            margin-top: 0px;
+            height: 76px;
+           
+        }
+
+        .star {
+            font-size: 48px;
+            cursor: pointer;
+            color: lightgray;
+        }
+
+        .star-rating .star {
+            margin-top: 0px;
+            cursor: pointer;
+        }
+
+        .star-rating .star.active {
+            color: gold;
+        }
+
+        .star:hover,
+        .star.selected {
+            color: gold;
+        }
+    </style>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Polska</title>
@@ -13,9 +50,10 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="background:url(./images/polskietlo1.webp); background-repeat: no-repeat;background-size: 100%100%;">
 
-    <div class="container">
+    <div class="container"
+        style="background:url(./images/рекипл.jpg); background-repeat: no-repeat;background-size: 100%100%;padding-left: 0px;padding-right: 0px;">
         <header class="card"
             style="display: flex; justify-content: center;height: 100px;background-image:url('./images/polskanazwa.jpg');background-repeat:no-repeat;background-size: 100% 100% ;">
             <div class="card-body bg-color" style="padding:0px;">
@@ -33,6 +71,95 @@
                     <li class="nav-item"> <a class="nav-link" href="зёбра.html">сравнительная табл.</a></li>
                 </ul>
             </div>
+
+            <h2 class="card-title" align="center"
+                style="color:blue;background: url('https://avatars.mds.yandex.net/i?id=21d3fd2e3047c895ea4fb348fbc06f0aed9b9583-6467253-images-thumbs&n=13');">
+                Написать отзыв о товаре&#8595;</h1>
+                <form class="card-text"
+                    style="padding-left: 5px;padding-right:5px;color:rgb(0, 0, 0);background:url(./images/рекипл.jpg); background-repeat: no-repeat;background-size: 100%100%;"
+                    action="https://www.bing.com/search?" id="user" name="user" target="_blank" method="get">
+                    <p>Для поисковика:<input type="hidden" name="q" value="поиск"></p>
+                    <p>Фамилия: <input type="text" name="surname" size=18 value="Петров"></p>
+                    <p>Имя: <input type="text" name="name" size=18 value="Дмитрий"></p>
+                    <p>Отчество: <input type="text" name="fathername" size=18 value="Константинович"></p>
+                    <p>Мобильный телефон: <input type="tel" name="tel" size=18 value="+7(888)8888888"></p>
+                    <p>Адрес эл.почты: <input type="email" name="email" size=20 maxlength=36 value="eurosojuz@mail.ru">
+                    <p>Я прочитал и ознакомился со следующими документами:
+                        <input type="Checkbox" name="polit" value="10" checked>Политика конфиденциальности
+                        <input type="Checkbox" name="awtor" value="20" checked>Соглашение об авторском праве <br>
+                        <input type="Checkbox" name="person" value="30" checked>Согласиe на обработку персональных
+                        данных
+                    </p>
+                    <p>Выберите товар:<select name="tip">
+                            <OPTION value="cz">Czapka</OPTION>
+                            <OPTION value="czh">Czapka z herbem Polski</OPTION>
+                            <OPTION value="bob">Kubek Bobr</OPTION>
+                            <OPTION value="plkrw">Kubek Polska krowa</OPTION>
+                            <OPTION value="obraz">Obraz Warszawy na płótnie</OPTION>
+                            <OPTION value="odznaka">Odznaka Polska</OPTION>
+                            <OPTION value="prapor">Polska flaga</OPTION>
+                            <OPTION value="marca">Polska marka</OPTION>
+                            <OPTION value="sto">Sto złotych</OPTION>
+                            <OPTION value="narod">Strój narodowy</OPTION>
+                            <OPTION value="gold">Wisiorek złoty</OPTION>
+                            <OPTION value="silver">Wisiorek из серебра</OPTION>
+                        </select></p>
+                    <p> Ваш отзыв:
+                        <br>
+                        <TEXTAREA cols=62 rows=4 name="textarea" placeholder="Ввести текст"></TEXTAREA>
+                    </p>
+
+                    <p style="display: inline-block;margin-bottom: 0px;font-size: larger;color: blue;">Ваша оценка:</p>
+                    <div class="star-rating" style="display: inline-block;">
+                        <input type="hidden" name="rating" id="rating" value="0">
+                        <div class="star-container" style="display: inline-block;">
+                            <label class="star active" data-value="1">★</label>
+                            <label class="star active" data-value="2">★</label>
+                            <label class="star active" data-value="3">★</label>
+                            <label class="star active" data-value="4">★</label>
+                            <label class="star active" data-value="5">★</label>
+                            <label class="star active" data-value="6">★</label>
+                            <label class="star active" data-value="7">★</label>
+                            <label class="star active" data-value="8">★</label>
+                            <label class="star" data-value="9">★</label>
+                            <label class="star" data-value="10">★</label>
+                        </div>
+                    </div>
+                    <p>Дата: <input type="date" name="date" value='2024-11-30'></p>
+                    <p>Время(UTC+3): <input type="time" name="czas" size=18 value="12:40"></p>
+                    <p>Пароль: <input type="password" name="password" size=8 maxlength=16 value="12345678"></p>
+                    <p>Выберите ваш тип устройства:<select name="tip">
+                            <OPTION value="stac">пк(стац.)</OPTION>
+                            <OPTION value="note">ноутбук</OPTION>
+                            <OPTION value="mob">моб.телефон</OPTION>
+                            <OPTION value="planszet">планшет</OPTION>
+                        </select></p>
+                    <p><input class="btn btn-success" type="reset" name="reset" value="Обновить">
+                        <input class="btn btn-success" type="submit" name="submit" value="Отправить">
+                    </p>
+                </form>
+                <script>
+                    const stars = document.querySelectorAll('.star');
+                    const ratingInput = document.querySelector('#rating');
+                    function setStars(ratingValue) {
+                        const stars = document.querySelectorAll('.star');
+                        console.log(stars);
+                        stars.forEach(star => {
+                            if (parseInt(star.dataset.value) <= ratingValue) {
+                                star.classList.add('active');
+                            } else {
+                                star.classList.remove('active');
+                            }
+                        });
+                        ratingInput.value = ratingValue;
+                    }
+                    stars.forEach(star => {
+                        star.addEventListener('click', function () {
+                            const ratingValue = parseInt(this.dataset.value); // Получаем значение звезды
+                            setStars(ratingValue); // Вызываем функцию для обновления звезд
+                        });
+                    });
+                </script>
 
 </body>
 
