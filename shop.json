@@ -1,59 +1,59 @@
 [
   {
     "id": "1",
-    "title": "Wally",
+    "title": "Sto złotych",
     "vendor_code": "111",
-    "description": "",
-    "price": 150,
+    "description": "z roku produkcji 2012",
+    "price": 3000,
     "img": "https://avatars.mds.yandex.net/i?id=9372c81353e878db836dd4903265df7769938e04-9666026-images-thumbs&n=13"
   },
   {
     "id": "2",
-    "title": "CAT",
+    "title": "Шапка",
     "vendor_code": "222",
-    "description": "Описание 2",
-    "price": 2,
+    "description": "Шапка польского гусара",
+    "price": 1600,
     "img": "https://avatars.mds.yandex.net/i?id=38f259133300e1e090ef49bedbcb80acd203ee36-9838181-images-thumbs&n=13"
   },
   {
     "id": "3",
-    "title": "mult_Avatar",
+    "title": "Кепка с гербом Польши",
     "vendor_code": "333",
-    "description": "Описание 3",
-    "price": 300,
+    "description": "",
+    "price": 660,
     "img": "https://avatars.mds.yandex.net/i?id=d2b1127a1fc80ab41383cf1762713fdcdd09fde1-8534972-images-thumbs&n=13"
   },
   {
     "id": "4",
-    "title": "Яхта",
+    "title": "Polska flaga",
     "vendor_code": "444e",
-    "description": "Описание 4",
-    "price": 1200,
+    "description": "флаг Польши 120х60см с древком",
+    "price": 800,
     "img": "https://avatars.mds.yandex.net/i?id=b64216bfa1793e7922feb02e7ffcfae5215efb75-10749046-images-thumbs&n=13"
   }
   ,
   {
     "id": "5",
-    "title": "Zooro",
+    "title": "Odznaka Polska",
     "vendor_code": "4445e",
-    "description": "Описание 6",
+    "description": "Значок Польской республики 1989г.",
     "price": 400,
     "img": "https://a.allegroimg.com/s1024/0c45fe/85a54ad140babb8571d1220f4dff"
   },
   {
     "id": "6",
-    "title": "Wait",
+    "title": "Подвеска",
     "vendor_code": "4446e",
-    "description": "Описание 6",
-    "price": 400,
+    "description": "Polski "złoty" orzeł",
+    "price": 1100,
     "img": "https://avatars.mds.yandex.net/i?id=d2ed08ac8aaba55efba07eadc88fb18fa6dbad5b-5284061-images-thumbs&n=13"
   },
   {
     "id": "7",
-    "title": "Bob",
+    "title": "Подвеска",
     "vendor_code": "4447e",
-    "description": "Описание 7",
-    "price": 700,
+    "description": "Подвеска из серебра с изображением Польши",
+    "price": 1200,
     "img": "https://www.cdiscount.com/pdt2/3/9/0/1/700x700/auc1699260361390/rw/polska-carte-collier-decoration-ethnique-pologne.jpg"
   },
   {
@@ -66,36 +66,36 @@
   },
   {
     "id": "9",
-    "title": "Товар 9",
+    "title": "Kubek "Bobr"",
     "vendor_code": "444e",
-    "description": "Описание 9",
+    "description": "Чашка бобр",
     "price": 400,
     "img": "https://avatars.mds.yandex.net/i?id=6f6d852a1d767ac0e69f89f15dfc7658_l-5284079-images-thumbs&n=13"
   }
   ,
   {
     "id": "10",
-    "title": "Avatar",
+    "title": "Polska marka",
     "vendor_code": "44410e",
-    "description": "Описание 10",
-    "price": 900,
+    "description": "Марка со зверьком, 1961, ПНР",
+    "price": 300,
     "img": "https://media4.allnumis.com/736/3-zlote-1954-beaver_736_66171724a6dc40c8L.jpg"
   },
   {
     "id": "11",
-    "title": "Товар 11",
+    "title": "Obraz Warszawy na płótnie",
     "vendor_code": "44411e",
-    "description": "Описание 1",
-    "price": 1100,
+    "description": "Картина Варшавы, холст, 1906",
+    "price": 16000,
     "img": "https://avatars.mds.yandex.net/i?id=cee7906c42cf0b812cca02806606bf41ddd3e080-4322260-images-thumbs&n=13"
   }
   ,
   {
     "id": "12",
-    "title": "Товар 12",
+    "title": "Kubek "Polska krowa"",
     "vendor_code": "44412e",
-    "description": "Описание 1",
-    "price": 1100,
+    "description": "Чашка с изображением польской танцующей коровы",
+    "price": 500,
     "img": "https://avatars.mds.yandex.net/get-marketpic/5961687/pic1ad76f1431558c6b979855e749d68555/orig"
   }
 ]
