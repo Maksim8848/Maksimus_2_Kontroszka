@@ -66,7 +66,7 @@
   },
   {
     "id": "9",
-    "title": "Kubek "Bobr"",
+    "title": "Kubek Bobr",
     "vendor_code": "444e",
     "description": "Чашка бобр",
     "price": 400,
@@ -92,7 +92,7 @@
   ,
   {
     "id": "12",
-    "title": "Kubek "Polska krowa"",
+    "title": "Kubek Polska krowa",
     "vendor_code": "44412e",
     "description": "Чашка с изображением польской танцующей коровы",
     "price": 500,
